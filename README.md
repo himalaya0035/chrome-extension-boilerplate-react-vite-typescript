@@ -1,3 +1,54 @@
-# React + TypeScript + Vite + TailwindCSS
+# React Chrome Extension Boilerplate with Vite and TypeScript
 
-This chrome extension template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub license](https://img.shields.io/github/license/himalaya0035/chrome-extension-boilerplate-react-vite-typescript)
+![React](https://img.shields.io/badge/react-18.x-blue)
+![TypeScript](https://img.shields.io/badge/typescript-5.x-blue)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-3.x-blue)
+![Vite](https://img.shields.io/badge/vite-4.x-blue)
+
+This repository aims to provide an easy-to-use foundation for developing Chrome extensions using modern web technologies, including React for building the user interface, TypeScript for type-safe development, Tailwind CSS for effortless styling, and Vite as the module bundler for speedy development.
+
+## Features
+
+- 🚀 Fast development with Vite's hot module replacement.
+- ⚙️ Dynamic manifest generation using the CRXJS vite plugin.
+- ⚛️ React-based user interface for the extension's popup, options page, and other components.
+- 🔧 TypeScript configuration for type-safe coding.
+- 🎨 Integrated with Tailwind CSS for flexible styling (Feel free to remove tailwind,if not required).
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- Node.js (recommended version 16.x or higher)
+- npm (comes with Node.js)
+
+## Getting Started
+
+Follow these steps to get the boilerplate code up and running:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/himalaya0035/chrome-extension-boilerplate-react-vite-typescript
+    ```
+
+2. **Navigate to the project folder:**
+
+    ```bash
+    cd chrome-extension-boilerplate-react-vite-typescript
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    This command will start the development server using Vite, enabling hot module replacement and allowing you to see your changes in real
