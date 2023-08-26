@@ -14,7 +14,7 @@ This repository aims to provide an easy-to-use foundation for developing Chrome 
 - ⚙️ Dynamic manifest generation using the CRXJS vite plugin.
 - ⚛️ React-based user interface for the extension's popup, options page, and other components.
 - 🔧 TypeScript configuration for type-safe coding.
-- 🎨 Integrated with Tailwind CSS for flexible styling (Feel free to remove tailwind,if not required).
+- 🎨 Integrated with Tailwind CSS for flexible styling (Feel free to remove tailwind, if not required).
 
 ## Prerequisites
 
@@ -51,4 +51,43 @@ Follow these steps to get the boilerplate code up and running:
     npm run dev
     ```
 
-    This command will start the development server using Vite, enabling hot module replacement and allowing you to see your changes in real
+    This command will start the development server using Vite, enabling hot module replacement and allowing you to see your changes in real.
+5. **Load the extension in Chrome:**
+
+    - Open the Chrome browser.
+    - Navigate to `chrome://extensions/`.
+    - Turn on the "Developer mode" toggle in the top-right corner.
+    - Click the "Load unpacked" button and select the `dist` folder inside your project directory.
+
+6. **Start Developing:**
+
+    - The popup UI can be found in the `src/popup` directory.
+    - Customize the manifest template in `src/manifest.json` and let CRXJS handle the dynamic manifest generation.
+    - Add your background scripts, options pages, and other extension components in their respective directories.
+
+7. **Build for Production:**
+
+    When you're ready to publish your extension, create a production build by running:
+
+    ```bash
+    npm run build
+    ```
+
+    The optimized files will be available in the `dist` folder. You can then package this folder to distribute your extension.
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Happy coding! If you find this boilerplate useful, consider giving it a star on GitHub. If you have any questions or need further assistance, please don't hesitate to reach out.
+
+**Disclaimer:** This project was created by the himalaya0035, for the community, to address the lack of comprehensive resources for building Chrome extensions with React, Vite, TypeScript, and Tailwind CSS. It is not officially endorsed by any of the mentioned technologies or organizations.
+
+---
+
