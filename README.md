@@ -15,6 +15,7 @@ This repository aims to provide an easy-to-use foundation for developing Chrome 
 - ⚛️ React-based user interface for the extension's popup, options page, and other components.
 - 🔧 TypeScript configuration for type-safe coding.
 - 🎨 Integrated with Tailwind CSS for flexible styling (Feel free to remove tailwind, if not required).
+- ⚡️ **Out-of-the-box support for background scripts, options pages, and content scripts. Customize them to fit your needs without the hassle of manual setup. Just start developing right away!**
 
 ## Prerequisites
 
@@ -63,7 +64,7 @@ Follow these steps to get the boilerplate code up and running:
 
     - The popup UI can be found in the `src/popup` directory.
     - Customize the manifest template in `src/manifest.json` and let CRXJS handle the dynamic manifest generation.
-    - Add your background scripts, options pages, and other extension components in their respective directories.
+    - The support for background scripts, options pages, content scripts is already configured. You can choose to customise it according to your need.
 
 7. **Build for Production:**
 
