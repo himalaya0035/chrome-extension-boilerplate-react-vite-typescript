@@ -6,6 +6,7 @@
   "background": {
     "service_worker": "./src/background/background.ts"
   },
+  "options_page" : "src/optionsPage/optionsPage.html",
   "content_scripts": [
     {
       "js": ["src/content/content.tsx"],
